@@ -15,7 +15,6 @@ app.add_middleware(
 
 #os.environ para despliegue. Descomente cuando ya probó todo local.
 client = MongoClient(os.environ["MONGO_URI"])
-#client = MongoClient("mongodb://ISIS2304D18202620:TPnZEKRUKNZk@157.253.236.88:8087")
 
 db = client["ISIS2304D18202620"]
 
